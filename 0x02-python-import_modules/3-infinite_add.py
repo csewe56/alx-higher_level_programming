@@ -8,5 +8,5 @@ if __name__ == "__main__":
         result = sum(map(int, args))
         print(result)
     else:
-        print(0)
+        print(result)
 
