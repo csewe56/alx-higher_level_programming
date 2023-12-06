@@ -1,13 +1,10 @@
 #!/usr/bin/python3
-import sys
 
 if __name__ == "__main__":
-    args = sys.argv[1:]
+    import sys
 
-    if args:
-        result = sum(map(int, args))
-        print(result)
-    else:
-        print(0)
-
+    sumtotal = 0
+    for i in range(len(sys.argv) - 1):
+        sumtotal += int(sys.argv[i + 1])
+    print("{}".format(sumtotal))
 
