@@ -8,9 +8,7 @@ void print_python_float(PyObject *p);
 
 void print_python_list(PyObject *p)
 void print_python_bytes(PyObject *p)
-void print_python_float(PyObject *p
-
-#!/usr/bin/python3 -u
+void print_python_float(PyObject *p)
 
 import ctypes
 
