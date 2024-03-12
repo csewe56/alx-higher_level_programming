@@ -1,8 +1,8 @@
 #!/usr/bin/node
-// script that prints the first argument passed to it
-const argv = process.argv[2];
-if (argv === undefined) {
+
+const args = process.argv;
+if (!args[2]) {
   console.log('No argument');
 } else {
-  console.log(argv);
+  console.log(args[2]);
 }
